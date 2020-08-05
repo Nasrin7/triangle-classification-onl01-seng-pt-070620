@@ -6,7 +6,6 @@ class Triangle
   
   def initialize(first_side,second_side,third_side)
     @sides = first_side , second_side , third_side
-    
   end
   
   def kind
