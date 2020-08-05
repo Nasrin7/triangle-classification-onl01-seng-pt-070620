@@ -31,7 +31,7 @@ class Triangle
   
   def triangle_inequality?
     @sides[0] + @sides[1] > @sides[2] &&
-    @sides[0] + @side[2] > @sides[1] &&
+    @sides[0] + @sides[2] > @sides[1] &&
     @sides[1] + @sides[2] > @sides[0]
   end
   
