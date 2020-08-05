@@ -11,7 +11,8 @@ class Triangle
   
   def kind
     case distinct_side_lengths
-    
+      when 3
+        
   end
   
   def distinct_side_lengths
