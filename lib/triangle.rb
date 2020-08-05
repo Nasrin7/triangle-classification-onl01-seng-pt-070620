@@ -13,7 +13,10 @@ class Triangle
     case distinct_side_lengths
       when 3
         :scalene
-        when 2
+      when 2
+        :isosceles
+      when 1
+        
   end
   
   def distinct_side_lengths
