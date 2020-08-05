@@ -16,7 +16,8 @@ class Triangle
       when 2
         :isosceles
       when 1
-        
+        :equilateral
+      end
   end
   
   def distinct_side_lengths
