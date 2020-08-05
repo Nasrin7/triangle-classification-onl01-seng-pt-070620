@@ -10,6 +10,7 @@ class Triangle
   end
   
   def kind
+    raise TriangleError if 
     case distinct_side_lengths
       when 3
         :scalene
