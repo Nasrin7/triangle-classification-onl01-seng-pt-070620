@@ -13,6 +13,10 @@ class Triangle
     
   end
   
+  def distinct_side_lengths
+    
+  end
+  
   class TriangleError < StandardError
   end
   
