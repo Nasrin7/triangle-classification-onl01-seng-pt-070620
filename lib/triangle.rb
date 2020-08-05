@@ -29,6 +29,12 @@ class Triangle
     @sides.any? {|side| side <= 0 }
   end
   
+  def triangle_inequality?
+    @sides[0] + @sides[1] > @sides[2] &&
+    @sides[0] + @side[2] > @sides[1] &&
+    @sides[1] + @sides[2] > @sides[0]
+  end
+  
   class TriangleError < StandardError
   end
   
