@@ -10,11 +10,12 @@ class Triangle
   end
   
   def kind
+    case distinct_side_lengths
     
   end
   
   def distinct_side_lengths
-    
+    @sides.uniq.count
   end
   
   class TriangleError < StandardError
