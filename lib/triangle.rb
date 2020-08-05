@@ -25,6 +25,10 @@ class Triangle
     @sides.uniq.count
   end
   
+  def zero_or_negative_side?
+    @sides.any? {|side| side <= 0 }
+  end
+  
   class TriangleError < StandardError
   end
   
